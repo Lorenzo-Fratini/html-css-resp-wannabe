@@ -1,0 +1,103 @@
+/* ipad */
+/*Ho dato direttamente la dimensione dell'ipad "rovesciato" perchè le selezioni vanno bene in entrambi i versi*/
+@media screen and (max-width: 1024px) {
+  .row {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: calc(100% / 2 - 20px);
+    margin-top: 60px;
+  }
+
+  #lezioni .row>.left {
+    margin-right: 20px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row {
+    margin-top: 50px;
+  }
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 30%;
+    margin-top: 60px;
+  }
+
+  #steps .row>.central {
+    margin: 60px 5% 0 5%;
+  }
+
+  /* BLOCCO PERCHE */
+  #why .row {
+    margin-top: 50px;
+  }
+
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    margin-top: 60px;
+  }
+
+  #why .row img {
+    padding: 20px
+  }
+
+  /* COMMON */
+  .container.grey h1 {
+    margin: 0 auto;
+  }
+
+  img {
+    height: 150px;
+  }
+
+@media screen and (max-width: 420px) {
+  .row {
+    width: 80%;
+    margin: 10px auto 0 auto;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    margin-top: 60px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  /* So che avrei potuto unire #lezioni e #steps in un unico blocco essendo ugali.
+     Ho preferito lasciarli divisi nell'evenienza in cui avessi bisogno che si comportino
+     diversamente l'uno dall'altro.*/
+
+  /* BLOCCO PERCHE */
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    margin-top: 60px;
+  }
+
+  #why .row img {
+    padding: 15px
+  }
+
+  /* COMMON */
+  .container.grey {
+    padding: 10px 0 30px 0;
+    margin: 70px auto 0 auto;
+  }
+
+  .container.grey h1 {
+    margin: 0 auto;
+  }
+
+  img {
+    height: 150px;
+  }
+
+}
