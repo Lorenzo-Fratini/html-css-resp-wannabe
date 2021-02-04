@@ -18,6 +18,10 @@
     margin-top: 60px;
   }
 
+  /* So che avrei potuto unire #lezioni e #steps in un unico blocco essendo ugali.
+     Ho preferito lasciarli divisi nell'evenienza in cui avessi bisogno che si comportino
+     diversamente l'uno dall'altro.*/
+
   /* BLOCCO PERCHE */
   #why .row>.first, #why .row>.second, #why .row>.third {
     margin-top: 60px;
